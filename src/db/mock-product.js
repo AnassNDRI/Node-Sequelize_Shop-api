@@ -2,7 +2,6 @@ const products = [
     {
         id: 1,
         name: "Acer Swift 5 (SF514-56T-75WY) AZERTY",
-        codeBarre: 11111,
         prize: 25.15,
         brand: "Acer",
         category: "mobil",

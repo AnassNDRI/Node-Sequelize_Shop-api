@@ -19,26 +19,6 @@ module.exports = (sequelize, DataTypes) => {
                 notNull: {msg: `Le nom est une propriété requise.`}
             }
         },
-        codeBarre: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            unique: {      // CONTRAINTE
-                msg: `Ce code barre est déjà pris.`
-            },
-
-            validate : { // VALIDATEURS natifs de Sequelize
-                isInt: { msg: 'Utiliser uniquement des nombres entiers pour le code barre.'},
-                min: {
-                    args: [1],
-                    msg: `Le code barre doit être supperieur ou égales  à 1.`
-                },
-                max: {
-                    args: [999999999999],
-                    msg: `Le code barre doit être inferieurs ou égales à à  999 999 999 999.`
-                },
-                notNull: {msg: 'Le code barre est une propriété requise.'},
-            }
-        },
         prize: {
             type: DataTypes.FLOAT,
             allowNull: false,

@@ -24,7 +24,6 @@ const initDb = () => {
         products.map(product => {
             Product.create({
                 name: product.name,
-                codeBarre: product.codeBarre,
                 prize: product.prize,
                 brand: product.brand,
                 category: product.category,
