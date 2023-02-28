@@ -1,2 +1,2 @@
-# nodeJs-shop-olne
+# node-shop-api
  My Portofolio
