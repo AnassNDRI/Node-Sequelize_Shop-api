@@ -1,0 +1,33 @@
+{
+  "name": "node-shop-api",
+  "version": "1.0.0",
+  "description": "An awesone API Rest our shop around",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnassNDRI/nodeJs-shop-olne.git"
+  },
+  "author": "Anass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnassNDRI/nodeJs-shop-olne/issues"
+  },
+  "homepage": "https://github.com/AnassNDRI/nodeJs-shop-olne#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mariadb": "^3.1.0",
+    "sequelize": "^6.29.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
