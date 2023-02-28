@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b34ac2ea-c2a5-41ae-a20a-5e9d93422495" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/node-shop-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/private_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/mock-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/sequelize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/user/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/laptop/laptop8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/machine/machine8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/mobil/mobil8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/profil/profil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pictures/tv/tv8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/createProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/deleteProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/findAllProducts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/findProductByPk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/updateProduct.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ML2VKgQyseUxYxKQDSV78jd2ki" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api" />
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src\auth" />
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src\routes" />
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src\resources" />
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src\ressources\pictures\machine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src\resources" />
+      <recent name="C:\Users\Anass\Documents\GitHub\node-shop-api\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b34ac2ea-c2a5-41ae-a20a-5e9d93422495" name="Changes" comment="" />
+      <created>1677532576692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677532576692</updated>
+      <workItem from="1677532582308" duration="11107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
