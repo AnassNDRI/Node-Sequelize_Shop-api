@@ -1,13 +1,13 @@
 const { ValidationError, UniqueConstraintError } = require('sequelize')
-const { Product } = require('../db/sequelize')
-const auth = require('../auth/auth')
+const { Role } = require('../../db/sequelize')
+const auth = require('../../auth/auth')
   
 module.exports = (app) => {
-  app.post('/api/products', auth, (req, res) => {
-    Product.create(req.body)
-      .then(product => {
-        const message = `Le product ${req.body.name} a bien été crée.`
-        res.json({ message, data: product })
+  app.post('/api/roles', auth, (req, res) => { 
+    Role.create(req.body)
+      .then(role => {
+        const message = `Le role ${req.body.roleName} a bien été crée.`
+        res.json({ message, data: role })
       })
       .catch(error => {   // en cas d'erreur
         if(error instanceof ValidationError) {
@@ -16,7 +16,7 @@ module.exports = (app) => {
         if(error instanceof UniqueConstraintError) {
           return  res.status(400).json({ message: error.message, data: error }) // va lever les msg d'erreur du validateur
         }
-        const message = `Le poroduct n'a pas pu être ajouté. Ressayez SVP.`
+        const message = `Le n'a pas pu être ajouté. Ressayez SVP.`
         res.status(500).json({ message, data: error })
        })
   })

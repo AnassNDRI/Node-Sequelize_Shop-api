@@ -1,8 +1,8 @@
-const { Product } = require('../db/sequelize')
-const auth = require('../auth/auth')
+const { Product } = require('../../db/sequelize')
+const auth = require('../../auth/auth')
   
 module.exports = (app) => {
-  app.delete('/api/products/:id', auth, (req, res) => {
+  app.delete('/api/products/delete/:id', auth, (req, res) => {
     Product.findByPk(req.params.id).then(product => {
       if(product === null) { // verifie si le product existe
         const message = `Le product demandé n'existe pas. Vous pouvez essayer un autre idendifiant.`

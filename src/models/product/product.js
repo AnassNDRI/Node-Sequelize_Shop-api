@@ -35,6 +35,19 @@ module.exports = (sequelize, DataTypes) => {
                 notNull: {msg: 'Le prix est une propriété requise.'}
             }
         },
+        tvaProduct: {
+            type: DataTypes.INTEGER,
+           /* allowNull: false,
+            validate : {
+                notEmpty: { msg: `Le nom d'un produit ne peut pas être vide`},
+                notNull: {msg: `Le nom est une propriété requise.`}
+            }  */
+            Reference : {
+                model: 'Tvas',
+                key: 'id'
+            }
+        },
+
         brand: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -62,11 +75,10 @@ module.exports = (sequelize, DataTypes) => {
             }
         },
         category: {
-            type: DataTypes.STRING,
-            allowNull: false,
-            validate : {
-                notEmpty: { msg: `La categorie d'un produit ne peut pas être vide`},
-                notNull: {msg: `Lea categorie est une propriété requise.`}
+            type: DataTypes.INTEGER,
+            Reference : {
+                model: 'Categorys',
+                key: 'id'
             }
         },
 
@@ -86,6 +98,9 @@ module.exports = (sequelize, DataTypes) => {
                 //isUrl: { msg: `Utiliser uniquement une URL valide pour l'image`},
                 notNull: {msg: `L'image est une propriété requise.`}
             }
+        },
+        productAcrif: {
+            type: DataTypes.TINYINT,
         },
 
 

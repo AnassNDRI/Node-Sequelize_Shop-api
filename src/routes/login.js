@@ -6,7 +6,7 @@ const privateKey = require('../auth/private_key')
 module.exports = (app) => {
   app.post('/api/login', (req, res) => {
   
-    User.findOne({ where: { username: req.body.username } }).then(user => {
+    User.findOne({ where: { email: req.body.email } }).then(user => {
 
       if(!user) {                           // verifiacation de l'existance de l'utilisateur dans la BD          
         const message = `L'utilisateur n'existe pas. `

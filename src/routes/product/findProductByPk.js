@@ -1,8 +1,8 @@
-const { Product } = require('../db/sequelize')
-const auth = require('../auth/auth')
+const { Product } = require('../../db/sequelize')
+const auth = require('../../auth/auth')
   
 module.exports = (app) => {
-  app.get('/api/products/:id', auth, (req, res) => {
+  app.get('/api/products/detail:id', auth, (req, res) => {
     Product.findByPk(req.params.id)
       .then(product => {
 

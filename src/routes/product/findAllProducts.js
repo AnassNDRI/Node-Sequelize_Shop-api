@@ -1,10 +1,10 @@
-const products = require('../db/mock-product')
-const { Product } = require('../db/sequelize')
+const products = require('../../db/mock-product')
+const { Product } = require('../../db/sequelize')
 const { Op } = require('sequelize') // Operateur de sequelize qui permet de faire recherche sql paramètrée
-const auth = require('../auth/auth')
+const auth = require('../../auth/auth')
   
 module.exports = (app) => {
-  app.get('/api/products', auth, (req, res) => {
+  app.get('/api/products/list', (req, res) => {
     
     //  ce bloc "if" permet de verifier si l'utilisateur souhaite la list ou faire une recherche filtrée
     if(req.query.brand) { // ce code permet d'indiquer à express que l'on souhaite d'extrait le paramètre de recherche dans l'url
