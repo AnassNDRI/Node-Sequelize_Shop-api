@@ -3,7 +3,7 @@ const { Address } = require('../../db/sequelize')
 const auth = require('../../auth/auth')
   
 module.exports = (app) => {
-  app.post('/api/address', auth, (req, res) => {
+  app.post('/api/address', auth, (req, res) => { 
     Address.create(req.body)
       .then(address => {
         const message = `L'addresse ${req.body.road} a bien été crée.`

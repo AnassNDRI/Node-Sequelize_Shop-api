@@ -1,13 +1,21 @@
+ /* const Address = require('../../db/mock-address')
+const AddressType = require('../adressType/addressType')
+const User = require('../user/user')
+
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('Address', {
+    const Address = sequelize.define('Address', {
       id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
       },
-      userId: {     /////////////////////
+      userId: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: User,
+          key: 'id'
+        }
       },
       road: {
         type: DataTypes.STRING,
@@ -19,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       box: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
       },
       npa: {
         type: DataTypes.INTEGER,
@@ -32,11 +40,26 @@ module.exports = (sequelize, DataTypes) => {
       country: {
         type: DataTypes.STRING,
         allowNull: false
+      },
+      addressTypeId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+          model: AddressType,
+          key: 'id'
+        }
       }
-      
     }, {
       timestamps: true,
       createdAt: 'created',
       updatedAt: false
     })
+
+    Address.belongsTo(AddressType, { foreignKey: 'addressTypeId' })
+    AddressType.hasMany(Address, { foreignKey: 'addressTypeId' })
+    Address.belongsTo(User, { foreignKey: 'userId' })
+    User.hasMany(Address, { foreignKey: 'userId' })
+
+    return Address
   }
+*/

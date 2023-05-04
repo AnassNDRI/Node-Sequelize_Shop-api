@@ -1,8 +1,8 @@
 const categorys = [
    {
-     id: 1,
+    id: 1,
      categoryName: 'Les Ordinateurs',
-     categoryActif: 1,
+     categoryActif: 1, 
      created: new Date()
     },
     {

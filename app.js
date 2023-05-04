@@ -43,42 +43,44 @@ require('./src/routes/user/createUser')(app)
 require('./src/routes/user/deleteUser')(app)
 require('./src/routes/user/findUserByPk')(app)
 require('./src/routes/user/updateUser')(app)
-//*************** Pour ADDRESSTYPE *************************************/
-require('./src/routes/addressType/findAllAddressType')(app)
-require('./src/routes/addressType/createAddressType')(app)
-require('./src/routes/addressType/deleteAddressType')(app)
-require('./src/routes/addressType/findAddressTypeByPk')(app)
-require('./src/routes/addressType/updateAddressType')(app)
-//*************** Pour ADDRESS *************************************/
-require('./src/routes/address/findAllAddress')(app)
-require('./src/routes/address/createAddress')(app)
-require('./src/routes/address/deleteAddress')(app)
-require('./src/routes/address/findAddressByPk')(app)
-require('./src/routes/address/updateAddress')(app)
-//*************** Pour CATEGORY *************************************/
-require('./src/routes/category/findAllCategory')(app)
-require('./src/routes/category/createCategory')(app)
-require('./src/routes/category/deleteCategory')(app)
-require('./src/routes/category/findCategoryByPk')(app)
-require('./src/routes/category/updateCategory')(app)
-//*************** Pour ROLE *************************************/
-require('./src/routes/role/findAllRole')(app)
-require('./src/routes/role/createRole')(app)
-require('./src/routes/role/deleteRole')(app)
-require('./src/routes/role/findRoleByPk')(app)
-require('./src/routes/role/updateRole')(app)
-//*************** Pour TVA *************************************/
-require('./src/routes/tva/findAllTva')(app)
-require('./src/routes/tva/createTva')(app)
-require('./src/routes/tva/deleteTva')(app)
-require('./src/routes/tva/findTvaByPk')(app)
-require('./src/routes/tva/updateTva')(app)
-//*************** Pour PAYMENTMETHOD *************************************/
-require('./src/routes/paymentMethod/findAllPaymentMethod')(app)
-require('./src/routes/paymentMethod/createPaymentMethod')(app)
-require('./src/routes/paymentMethod/deletePaymentMethod')(app)
-require('./src/routes/paymentMethod/findPaymentMethodByPk')(app)
-require('./src/routes/paymentMethod/updatePaymentMethod')(app)
+
+
+// //*************** Pour ADDRESSTYPE *************************************/
+// require('./src/routes/addressType/findAllAddressType')(app)
+// require('./src/routes/addressType/createAddressType')(app)
+// require('./src/routes/addressType/deleteAddressType')(app)
+// require('./src/routes/addressType/findAddressTypeByPk')(app)
+// require('./src/routes/addressType/updateAddressType')(app)
+// //*************** Pour ADDRESS *************************************/
+// require('./src/routes/address/findAllAddress')(app)
+// require('./src/routes/address/createAddress')(app)
+// require('./src/routes/address/deleteAddress')(app)
+// require('./src/routes/address/findAddressByPk')(app)
+// require('./src/routes/address/updateAddress')(app)
+// //*************** Pour CATEGORY *************************************/
+// require('./src/routes/category/findAllCategory')(app)
+// require('./src/routes/category/createCategory')(app)
+// require('./src/routes/category/deleteCategory')(app)
+// require('./src/routes/category/findCategoryByPk')(app)
+// require('./src/routes/category/updateCategory')(app)
+// //*************** Pour ROLE *************************************/
+// require('./src/routes/role/findAllRole')(app)
+// require('./src/routes/role/createRole')(app)
+// require('./src/routes/role/deleteRole')(app)
+// require('./src/routes/role/findRoleByPk')(app)
+// require('./src/routes/role/updateRole')(app)
+// //*************** Pour TVA *************************************/
+// require('./src/routes/tva/findAllTva')(app)
+// require('./src/routes/tva/createTva')(app)
+// require('./src/routes/tva/deleteTva')(app)
+// require('./src/routes/tva/findTvaByPk')(app)
+// require('./src/routes/tva/updateTva')(app)
+// //*************** Pour PAYMENTMETHOD *************************************/
+// require('./src/routes/paymentMethod/findAllPaymentMethod')(app)
+// require('./src/routes/paymentMethod/createPaymentMethod')(app)
+// require('./src/routes/paymentMethod/deletePaymentMethod')(app)
+// require('./src/routes/paymentMethod/findPaymentMethodByPk')(app)
+// require('./src/routes/paymentMethod/updatePaymentMethod')(app)
 
 
 

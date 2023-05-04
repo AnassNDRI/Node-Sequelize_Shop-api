@@ -8,6 +8,7 @@ const address = [
      npa: 1005,
      city: "Lausanne",
      country: "Suisse",
+     addressTypeId: 1,
      created: new Date()
     },
     {
@@ -19,6 +20,7 @@ const address = [
       npa: 4031,
       city: "Angleur",
       country: "Belgique",
+      addressTypeId: 2,
       created: new Date()
     },
    

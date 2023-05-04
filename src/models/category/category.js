@@ -1,6 +1,10 @@
+/*
 
-  module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('Category', {
+const Product = require('../product/product')
+const Category = require('../../db/mock-category')
+
+module.exports = (sequelize, DataTypes) => {
+    const Category = sequelize.define('Category', {
       id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -11,13 +15,19 @@
         allowNull: false
       },
       categoryActif: {
-        type: DataTypes.TINYINT,
-        allowNull: false
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: true
       }
     }, {
       timestamps: true,
       createdAt: 'created',
       updatedAt: false
     })
-}
 
+    Category.hasMany(Product, { foreignKey: 'categoryId' })
+    Product.belongsTo(Category, { foreignKey: 'categoryId' })
+
+    return Category
+}
+*/

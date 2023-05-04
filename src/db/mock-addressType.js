@@ -6,7 +6,7 @@ const addressTypes = [
      created: new Date()
     },
     {
-     id: 2,
+      id: 2,
      addressName: 'ADRESSE DE FACTURATION',
      addressActif: 1,
      created: new Date()

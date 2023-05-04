@@ -9,7 +9,7 @@ module.exports = (app) => {
     User.findOne({ where: { email: req.body.email } }).then(user => {
 
       if(!user) {                           // verifiacation de l'existance de l'utilisateur dans la BD          
-        const message = `L'utilisateur n'existe pas. `
+        const message = `L'email n'existe pas. `
         return res.status(400).json({message})
       }
 
